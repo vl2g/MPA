@@ -78,3 +78,9 @@ Now, to evaluate pre-trained and MPA trained models you can run the following co
 # run the bash script evaluate.sh
 $ bash evaluate.sh
 ```
+
+## License
+This code and data are released under the [MIT license](LICENSE.txt).
+
+## Acknowledgements
+1. We used code-base and pre-trained models of [Qwen2vl](https://github.com/QwenLM/Qwen2.5-VL).
