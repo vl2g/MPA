@@ -1,0 +1,66 @@
+[
+    {
+        "question_id": 516065,
+        "image_path": "/workspace/data/okvqa/images/train2014/COCO_train2014_000000051606.jpg",
+        "ground_truth_question": "What is the hairstyle of the blond called?",
+        "ground_truth_answer": "pony tail",
+        "predicted_question": "What is the sport being played by the women in the image",
+        "predicted_answer": "Tennis"
+    },
+    {
+        "question_id": 817215,
+        "image_path": "/workspace/data/okvqa/images/train2014/COCO_train2014_000000081721.jpg",
+        "ground_truth_question": "How old do you have to be in canada to do this?",
+        "ground_truth_answer": "18",
+        "predicted_question": "What is the significance of the green bracelet on the man's wrist",
+        "predicted_answer": "St. Patrick's Day"
+    },
+    {
+        "question_id": 4802085,
+        "image_path": "/workspace/data/okvqa/images/train2014/COCO_train2014_000000480208.jpg",
+        "ground_truth_question": "Can you guess the place where the man is playing?",
+        "ground_truth_answer": "mountain",
+        "predicted_question": "What is the person in the image likely to be doing",
+        "predicted_answer": "Snowboarding"
+    },
+    {
+        "question_id": 5706185,
+        "image_path": "/workspace/data/okvqa/images/train2014/COCO_train2014_000000570618.jpg",
+        "ground_truth_question": "Which rail company is named after a town in new mexico?",
+        "ground_truth_answer": "santa fe",
+        "predicted_question": "What is the significance of the number 1604 on the train",
+        "predicted_answer": "Serial number"
+    },
+    {
+        "question_id": 4789035,
+        "image_path": "/workspace/data/okvqa/images/train2014/COCO_train2014_000000478903.jpg",
+        "ground_truth_question": "Is the boy swimming or doing another water activity?",
+        "ground_truth_answer": "another activity",
+        "predicted_question": "What is the boy holding in the water",
+        "predicted_answer": "surfboard"
+    },
+    {
+        "question_id": 5426515,
+        "image_path": "/workspace/data/okvqa/images/train2014/COCO_train2014_000000542651.jpg",
+        "ground_truth_question": "Why do kids stare?",
+        "ground_truth_answer": "curious",
+        "predicted_question": "What is the woman playing on the instrument in the image",
+        "predicted_answer": "Kora"
+    },
+    {
+        "question_id": 250245,
+        "image_path": "/workspace/data/okvqa/images/train2014/COCO_train2014_000000025024.jpg",
+        "ground_truth_question": "When was this piece of sporting equipment invented?",
+        "ground_truth_answer": "1926",
+        "predicted_question": "What is the man in the image likely to do next",
+        "predicted_answer": "Surf"
+    },
+    {
+        "question_id": 20565,
+        "image_path": "/workspace/data/okvqa/images/train2014/COCO_train2014_000000002056.jpg",
+        "ground_truth_question": "Why is this officer using this mode of transportation?",
+        "ground_truth_answer": "patrol",
+        "predicted_question": "What is the man riding on",
+        "predicted_answer": "Horse"
+    }
+]

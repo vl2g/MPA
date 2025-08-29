@@ -1,0 +1,66 @@
+[
+    {
+        "question_id": 0,
+        "image_path": "/workspace/data/TextVQA/train_images/0054c91397f2fe05.jpg",
+        "ground_truth_question": "what is the brand of phone?",
+        "ground_truth_answer": "nokia",
+        "predicted_question": "What is the color of the Nokia phone in the image",
+        "predicted_answer": "Brown"
+    },
+    {
+        "question_id": 1,
+        "image_path": "/workspace/data/TextVQA/train_images/005635e119b9f32f.jpg",
+        "ground_truth_question": "what type of plane is this?",
+        "ground_truth_answer": "lape",
+        "predicted_question": "What is the name of the airplane in the image",
+        "predicted_answer": "EC-AGG"
+    },
+    {
+        "question_id": 4,
+        "image_path": "/workspace/data/TextVQA/train_images/00685bc495504d61.jpg",
+        "ground_truth_question": "what brand is on the plane?",
+        "ground_truth_answer": "virgin",
+        "predicted_question": "Which airline is represented by the red and white tail fin in the image",
+        "predicted_answer": "Virgin"
+    },
+    {
+        "question_id": 5,
+        "image_path": "/workspace/data/TextVQA/train_images/006d10667d17b924.jpg",
+        "ground_truth_question": "what year is shown in the photo?",
+        "ground_truth_answer": "2011",
+        "predicted_question": "Who is the person on the screen",
+        "predicted_answer": "H.G. ARMIAH"
+    },
+    {
+        "question_id": 7,
+        "image_path": "/workspace/data/TextVQA/train_images/00c359f294f7dcd9.jpg",
+        "ground_truth_question": "what is the name of this plane?",
+        "ground_truth_answer": "g-atco",
+        "predicted_question": "What is the registration number of the plane",
+        "predicted_answer": "G-ATCO"
+    },
+    {
+        "question_id": 9,
+        "image_path": "/workspace/data/TextVQA/train_images/0122c5279a501df2.jpg",
+        "ground_truth_question": "what letter is on the plane's tail?",
+        "ground_truth_answer": "f",
+        "predicted_question": "What airline does the plane belong to",
+        "predicted_answer": "Finnair"
+    },
+    {
+        "question_id": 11,
+        "image_path": "/workspace/data/TextVQA/train_images/015c537f722d115e.jpg",
+        "ground_truth_question": "what airline is this plane for?",
+        "ground_truth_answer": "air france",
+        "predicted_question": "What airline does the plane belong to",
+        "predicted_answer": "Air France"
+    },
+    {
+        "question_id": 12,
+        "image_path": "/workspace/data/TextVQA/train_images/0202faf23a9aae11.jpg",
+        "ground_truth_question": "what does it say on the plane?",
+        "ground_truth_answer": "croatia",
+        "predicted_question": "What airline does the plane belong to",
+        "predicted_answer": "Croatia"
+    }
+]

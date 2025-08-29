@@ -1,0 +1,30 @@
+[
+    {
+        "question_id": 1457,
+        "image_path": "/workspace/data/ChartVQA/ChartQA_Dataset/train-val/9051.png",
+        "PA_question": "Which country places the highest value on individual liberty",
+        "PA_answer": "Lithuania",
+        "predictions": "Lithuania"
+    },
+    {
+        "question_id": 3919,
+        "image_path": "/workspace/data/ChartVQA/ChartQA_Dataset/train-val/two_col_100391.png",
+        "PA_question": "How many more law enforcement officer fatalities were there among males compared to females",
+        "PA_answer": "228",
+        "predictions": "228"
+    },
+    {
+        "question_id": 16829,
+        "image_path": "/workspace/data/ChartVQA/ChartQA_Dataset/train-val/two_col_83174.png",
+        "PA_question": "What was the domestic travel spending in billion U.S. dollars in 2000",
+        "PA_answer": "2000",
+        "predictions": "2000"
+    },
+    {
+        "question_id": 10163,
+        "image_path": "/workspace/data/ChartVQA/ChartQA_Dataset/train-val/two_col_103039.png",
+        "PA_question": "Which movie earned the highest revenue in million U.S. dollars",
+        "PA_answer": "Avengers: Endgame",
+        "predictions": "Avengers: Endgame"
+    }
+]

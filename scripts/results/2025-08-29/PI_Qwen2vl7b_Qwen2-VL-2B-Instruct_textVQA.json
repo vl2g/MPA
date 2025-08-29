@@ -1,0 +1,30 @@
+[
+    {
+        "question_id": 0,
+        "image_path": "/workspace/data/TextVQA/train_images/0054c91397f2fe05.jpg",
+        "PA_question": "What brand is the phone in the picture",
+        "PA_answer": "Nokia",
+        "predictions": "Nokia"
+    },
+    {
+        "question_id": 1,
+        "image_path": "/workspace/data/TextVQA/train_images/005635e119b9f32f.jpg",
+        "PA_question": "What is the name of the airplane in the picture",
+        "PA_answer": "EC-AGG",
+        "predictions": "EC-AGG"
+    },
+    {
+        "question_id": 4,
+        "image_path": "/workspace/data/TextVQA/train_images/00685bc495504d61.jpg",
+        "PA_question": "What airline does the plane belong to",
+        "PA_answer": "Virgin",
+        "predictions": "Qantas"
+    },
+    {
+        "question_id": 5,
+        "image_path": "/workspace/data/TextVQA/train_images/006d10667d17b924.jpg",
+        "PA_question": "What is the date of the Rimini Meeting 2011",
+        "PA_answer": "21-27 Agosto 2011",
+        "predictions": "21-27 agosto 2011"
+    }
+]

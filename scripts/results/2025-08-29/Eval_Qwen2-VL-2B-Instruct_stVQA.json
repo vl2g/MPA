@@ -1,0 +1,58 @@
+[
+    {
+        "question_id": 26281,
+        "image_path": "/workspace/data/ST-VQA/train/data/icdar/test_img_389.jpg",
+        "GT_question": "What are the first four letters after W.E.?",
+        "GT_answer": "WORK",
+        "predictions": "WORK"
+    },
+    {
+        "question_id": 7661,
+        "image_path": "/workspace/data/ST-VQA/train/data/imageNet/n02786058_8045.JPEG",
+        "GT_question": "what is the color of the band aid box?",
+        "GT_answer": "blue and green.",
+        "predictions": "blue"
+    },
+    {
+        "question_id": 17055,
+        "image_path": "/workspace/data/ST-VQA/train/data/VisualGenome/1/2327997.jpg",
+        "GT_question": "Where is the yellow bus going?",
+        "GT_answer": "Minneapolis",
+        "predictions": "Downtown Minneapolis"
+    },
+    {
+        "question_id": 25552,
+        "image_path": "/workspace/data/ST-VQA/train/data/coco-text/COCO_train2014_000000337796.jpg",
+        "GT_question": "Where is this bus going?",
+        "GT_answer": "stockport",
+        "predictions": "137"
+    },
+    {
+        "question_id": 6500,
+        "image_path": "/workspace/data/ST-VQA/train/data/imageNet/n04372370_34537.JPEG",
+        "GT_question": "What does the sticker say?",
+        "GT_answer": "Switch",
+        "predictions": "switch"
+    },
+    {
+        "question_id": 25341,
+        "image_path": "/workspace/data/ST-VQA/train/data/VisualGenome/2/2409497.jpg",
+        "GT_question": "What are the two planets names?",
+        "GT_answer": "Venus Mars",
+        "predictions": "venus and mars"
+    },
+    {
+        "question_id": 18122,
+        "image_path": "/workspace/data/ST-VQA/train/data/VisualGenome/1/2343528.jpg",
+        "GT_question": "Who is the author of the top book?",
+        "GT_answer": "Barbara Kingsolver",
+        "predictions": "Barbara Kingsolver"
+    },
+    {
+        "question_id": 24716,
+        "image_path": "/workspace/data/ST-VQA/train/data/VisualGenome/2/1050.jpg",
+        "GT_question": "What vodka brand has the red lable?",
+        "GT_answer": "Smirnoff",
+        "predictions": "KIRKLAND"
+    }
+]

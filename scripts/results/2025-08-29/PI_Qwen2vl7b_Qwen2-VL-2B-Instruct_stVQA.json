@@ -1,0 +1,30 @@
+[
+    {
+        "question_id": 21792,
+        "image_path": "/workspace/data/ST-VQA/train/data/VisualGenome/2/2408478.jpg",
+        "PA_question": "What does the sign indicate about parking in the area",
+        "PA_answer": "No parking.",
+        "predictions": "no parking"
+    },
+    {
+        "question_id": 23356,
+        "image_path": "/workspace/data/ST-VQA/train/data/VisualGenome/1/2347870.jpg",
+        "PA_question": "What is the name of the hotel shown in the image",
+        "PA_answer": "Hotel Jaragua",
+        "predictions": "Hotel Jaragua"
+    },
+    {
+        "question_id": 6867,
+        "image_path": "/workspace/data/ST-VQA/train/data/coco-text/COCO_train2014_000000283220.jpg",
+        "PA_question": "What is the name of the street on the left side of the image",
+        "PA_answer": "Floyd Av",
+        "predictions": "FLOYD"
+    },
+    {
+        "question_id": 23952,
+        "image_path": "/workspace/data/ST-VQA/train/data/imageNet/n03127925_24203.JPEG",
+        "PA_question": "What region is the crate from",
+        "PA_answer": "Napa Valley, CA",
+        "predictions": "Napa Valley"
+    }
+]

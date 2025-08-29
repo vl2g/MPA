@@ -1,0 +1,30 @@
+[
+    {
+        "question_id": 516065,
+        "image_path": "/workspace/data/okvqa/images/train2014/COCO_train2014_000000051606.jpg",
+        "PA_question": "What is the sport being played by the women in the image",
+        "PA_answer": "Tennis",
+        "predictions": "tennis"
+    },
+    {
+        "question_id": 817215,
+        "image_path": "/workspace/data/okvqa/images/train2014/COCO_train2014_000000081721.jpg",
+        "PA_question": "What is the significance of the green bracelet on the man's wrist",
+        "PA_answer": "Good luck charm",
+        "predictions": "lucky"
+    },
+    {
+        "question_id": 4802085,
+        "image_path": "/workspace/data/okvqa/images/train2014/COCO_train2014_000000480208.jpg",
+        "PA_question": "What is the person in the image likely doing",
+        "PA_answer": "Snowboarding",
+        "predictions": "Snowboarding"
+    },
+    {
+        "question_id": 5706185,
+        "image_path": "/workspace/data/okvqa/images/train2014/COCO_train2014_000000570618.jpg",
+        "PA_question": "What is the significance of the number 1604 on the train",
+        "PA_answer": "Serial number",
+        "predictions": "identification"
+    }
+]

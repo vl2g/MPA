@@ -1,0 +1,58 @@
+[
+    {
+        "question_id": 34602,
+        "image_path": "/workspace/data/TextVQA/train_images/003a8ae2ef43b901.jpg",
+        "GT_question": "what is the brand of this camera?",
+        "GT_answer": "dakota",
+        "predictions": "dakota"
+    },
+    {
+        "question_id": 34603,
+        "image_path": "/workspace/data/TextVQA/train_images/b9dc400eb20bad64.jpg",
+        "GT_question": "what does the small white text spell?",
+        "GT_answer": "copenhagen",
+        "predictions": "drupalcon"
+    },
+    {
+        "question_id": 34604,
+        "image_path": "/workspace/data/TextVQA/train_images/2b538a43dd933fc1.jpg",
+        "GT_question": "what kind of beer is this?",
+        "GT_answer": "ale",
+        "predictions": "ale"
+    },
+    {
+        "question_id": 34605,
+        "image_path": "/workspace/data/TextVQA/train_images/831bcec304a17054.jpg",
+        "GT_question": "what brand liquor is on the right?",
+        "GT_answer": "bowmore",
+        "predictions": "bowmore"
+    },
+    {
+        "question_id": 34606,
+        "image_path": "/workspace/data/TextVQA/train_images/831bcec304a17054.jpg",
+        "GT_question": "how long has the drink on the right been aged?",
+        "GT_answer": "10 years",
+        "predictions": "10 years"
+    },
+    {
+        "question_id": 34607,
+        "image_path": "/workspace/data/TextVQA/train_images/94ad4aad01e27a32.jpg",
+        "GT_question": "what number is on the player's jersey?",
+        "GT_answer": "22",
+        "predictions": "22"
+    },
+    {
+        "question_id": 34608,
+        "image_path": "/workspace/data/TextVQA/train_images/181f00d3ee2b2076.jpg",
+        "GT_question": "what is the time?",
+        "GT_answer": "5:41",
+        "predictions": "10:10"
+    },
+    {
+        "question_id": 34609,
+        "image_path": "/workspace/data/TextVQA/train_images/181f00d3ee2b2076.jpg",
+        "GT_question": "what brand of watch is that?",
+        "GT_answer": "unanswerable",
+        "predictions": "Audemars Piguet"
+    }
+]

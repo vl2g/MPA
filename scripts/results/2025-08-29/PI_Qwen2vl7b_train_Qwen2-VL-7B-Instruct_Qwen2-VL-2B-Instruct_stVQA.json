@@ -1,0 +1,16 @@
+[
+  {
+    "id": 23952,
+    "image": "/workspace/data/ST-VQA/train/data/imageNet/n03127925_24203.JPEG",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat region is the crate from"
+      },
+      {
+        "from": "gpt",
+        "value": "Napa Valley, CA"
+      }
+    ]
+  }
+]

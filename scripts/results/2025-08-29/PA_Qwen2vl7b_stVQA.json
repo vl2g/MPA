@@ -1,0 +1,66 @@
+[
+    {
+        "question_id": 21020,
+        "image_path": "/workspace/data/ST-VQA/train/data/imageNet/n07248320_63927.JPEG",
+        "ground_truth_question": "What does the right most book say?",
+        "ground_truth_answer": "Copse 125",
+        "predicted_question": "What is the title of the book \"The Storm of Steel\"",
+        "predicted_answer": "Bernhard Adams"
+    },
+    {
+        "question_id": 6299,
+        "image_path": "/workspace/data/ST-VQA/train/data/coco-text/COCO_train2014_000000476106.jpg",
+        "ground_truth_question": "What company created the cell phone?",
+        "ground_truth_answer": "samsung",
+        "predicted_question": "What brand of phone is being advertised",
+        "predicted_answer": "Samsung"
+    },
+    {
+        "question_id": 31109,
+        "image_path": "/workspace/data/ST-VQA/train/data/coco-text/COCO_train2014_000000330041.jpg",
+        "ground_truth_question": "What is printed on the white sign?",
+        "ground_truth_answer": "caution cross traffic does not stop",
+        "predicted_question": "What does the sign say",
+        "predicted_answer": "STOP"
+    },
+    {
+        "question_id": 3356,
+        "image_path": "/workspace/data/ST-VQA/train/data/IIIT_text/img_001277.jpg",
+        "ground_truth_question": "What does the yellow text say",
+        "ground_truth_answer": "Welcome!",
+        "predicted_question": "What is the purpose of the image",
+        "predicted_answer": "Welcome."
+    },
+    {
+        "question_id": 9551,
+        "image_path": "/workspace/data/ST-VQA/train/data/IIIT_text/img_000644.jpg",
+        "ground_truth_question": "What is the name of this place?",
+        "ground_truth_answer": "Hyatt Hotel Canberra",
+        "predicted_question": "What is the name of the hotel shown in the image",
+        "predicted_answer": "Hyatt Hotel Canberra"
+    },
+    {
+        "question_id": 14742,
+        "image_path": "/workspace/data/ST-VQA/train/data/coco-text/COCO_train2014_000000260123.jpg",
+        "ground_truth_question": "How many hours does the parking sign at the bottom right of the picture allow you to park?",
+        "ground_truth_answer": "24h",
+        "predicted_question": "What color is the bus in the image",
+        "predicted_answer": "Red"
+    },
+    {
+        "question_id": 9980,
+        "image_path": "/workspace/data/ST-VQA/train/data/coco-text/COCO_train2014_000000120926.jpg",
+        "ground_truth_question": "What is the slogan on the boy's t-shirt?",
+        "ground_truth_answer": "All is Well",
+        "predicted_question": "How many elephants are in the picture",
+        "predicted_answer": "2"
+    },
+    {
+        "question_id": 2252,
+        "image_path": "/workspace/data/ST-VQA/train/data/VisualGenome/1/2343979.jpg",
+        "ground_truth_question": "What is to the left?",
+        "ground_truth_answer": "Objazd",
+        "predicted_question": "What does the sign say",
+        "predicted_answer": "Objazd"
+    }
+]

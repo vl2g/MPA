@@ -1,0 +1,16 @@
+[
+  {
+    "id": 4,
+    "image": "/workspace/data/TextVQA/train_images/00685bc495504d61.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat airline does the plane belong to"
+      },
+      {
+        "from": "gpt",
+        "value": "Virgin"
+      }
+    ]
+  }
+]

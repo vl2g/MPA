@@ -1,0 +1,58 @@
+[
+    {
+        "question_id": 2971475,
+        "image_path": "/workspace/data/okvqa/images/val2014/COCO_val2014_000000297147.jpg",
+        "GT_question": "What sport can you use this for?",
+        "GT_answer": "race",
+        "predictions": "motorcycle"
+    },
+    {
+        "question_id": 3397615,
+        "image_path": "/workspace/data/okvqa/images/val2014/COCO_val2014_000000339761.jpg",
+        "GT_question": "Name the type of plant this is?",
+        "GT_answer": "vine",
+        "predictions": "fern"
+    },
+    {
+        "question_id": 3575865,
+        "image_path": "/workspace/data/okvqa/images/val2014/COCO_val2014_000000357586.jpg",
+        "GT_question": "What toy is this?",
+        "GT_answer": "stuffed animal",
+        "predictions": "teddy bear"
+    },
+    {
+        "question_id": 949225,
+        "image_path": "/workspace/data/okvqa/images/val2014/COCO_val2014_000000094922.jpg",
+        "GT_question": "Which part of this animal would be in use of it was playing the game that is played with the items the man is holding?",
+        "GT_answer": "mouth",
+        "predictions": "tail"
+    },
+    {
+        "question_id": 2076115,
+        "image_path": "/workspace/data/okvqa/images/val2014/COCO_val2014_000000207611.jpg",
+        "GT_question": "What could this gentleman be carrying in that red bag?",
+        "GT_answer": "cloth",
+        "predictions": "suit"
+    },
+    {
+        "question_id": 5723996,
+        "image_path": "/workspace/data/okvqa/images/val2014/COCO_val2014_000000572399.jpg",
+        "GT_question": "Who leaves a toilet like this?",
+        "GT_answer": "man",
+        "predictions": "man"
+    },
+    {
+        "question_id": 5759705,
+        "image_path": "/workspace/data/okvqa/images/val2014/COCO_val2014_000000575970.jpg",
+        "GT_question": "A center affixed unit like this one in a kitchen is called a what?",
+        "GT_answer": "island",
+        "predictions": "island"
+    },
+    {
+        "question_id": 3045575,
+        "image_path": "/workspace/data/okvqa/images/val2014/COCO_val2014_000000304557.jpg",
+        "GT_question": "Why might someone go to this place?",
+        "GT_answer": "shop",
+        "predictions": "shopping"
+    }
+]

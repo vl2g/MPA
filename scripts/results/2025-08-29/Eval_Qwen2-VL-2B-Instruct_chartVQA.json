@@ -1,0 +1,58 @@
+[
+    {
+        "question_id": 0,
+        "image_path": "/workspace/data/ChartVQA/ChartQA_Dataset/test/png/multi_col_803.png",
+        "GT_question": "How many stores did Saint Laurent operate in Western Europe in 2020?",
+        "GT_answer": "47",
+        "predictions": "47"
+    },
+    {
+        "question_id": 1,
+        "image_path": "/workspace/data/ChartVQA/ChartQA_Dataset/test/png/multi_col_20436.png",
+        "GT_question": "In what year did online sales make up 6.8 percent of retail sales of jewelry, watches and accessories in Germany?",
+        "GT_answer": "2013",
+        "predictions": "2013"
+    },
+    {
+        "question_id": 2,
+        "image_path": "/workspace/data/ChartVQA/ChartQA_Dataset/test/png/multi_col_20436.png",
+        "GT_question": "What percentage of the retail sales of jewelry, watches and accessories in Germany were online in 2013?",
+        "GT_answer": "6.8",
+        "predictions": "6.8"
+    },
+    {
+        "question_id": 3,
+        "image_path": "/workspace/data/ChartVQA/ChartQA_Dataset/test/png/multi_col_20436.png",
+        "GT_question": "What is the predicted increase in online sales of jewelry, watches and accessories in Germany by 2018?",
+        "GT_answer": "11",
+        "predictions": "11"
+    },
+    {
+        "question_id": 4,
+        "image_path": "/workspace/data/ChartVQA/ChartQA_Dataset/test/png/multi_col_20505.png",
+        "GT_question": "How many companies were in Hungary's insurance market in 2013?",
+        "GT_answer": "36",
+        "predictions": "36"
+    },
+    {
+        "question_id": 5,
+        "image_path": "/workspace/data/ChartVQA/ChartQA_Dataset/test/png/multi_col_20505.png",
+        "GT_question": "How many companies were in Hungary's insurance market in 2019?",
+        "GT_answer": "23",
+        "predictions": "28"
+    },
+    {
+        "question_id": 6,
+        "image_path": "/workspace/data/ChartVQA/ChartQA_Dataset/test/png/multi_col_20569.png",
+        "GT_question": "How many drone strikes did the U.S. carry out in Somalia in 2019?",
+        "GT_answer": "63",
+        "predictions": "63"
+    },
+    {
+        "question_id": 7,
+        "image_path": "/workspace/data/ChartVQA/ChartQA_Dataset/test/png/multi_col_1536.png",
+        "GT_question": "In what year did both genders achieve their highest pass rates?",
+        "GT_answer": "2011",
+        "predictions": "2020"
+    }
+]

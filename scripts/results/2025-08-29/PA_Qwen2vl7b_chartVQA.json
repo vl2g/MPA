@@ -1,0 +1,66 @@
+[
+    {
+        "question_id": 0,
+        "image_path": "/workspace/data/ChartVQA/ChartQA_Dataset/train-val/10095.png",
+        "ground_truth_question": "How many values are below 40 in Unfavorable graph?",
+        "ground_truth_answer": "6",
+        "predicted_question": "What percentage of Americans had a favorable view of China in 2015",
+        "predicted_answer": "38"
+    },
+    {
+        "question_id": 1,
+        "image_path": "/workspace/data/ChartVQA/ChartQA_Dataset/train-val/10149.png",
+        "ground_truth_question": "In which year the value was 51?",
+        "ground_truth_answer": "2014",
+        "predicted_question": "What was the percentage of favorable views of Enrique Pe\u00f1a Nieto in 2011",
+        "predicted_answer": "61"
+    },
+    {
+        "question_id": 2,
+        "image_path": "/workspace/data/ChartVQA/ChartQA_Dataset/train-val/10154.png",
+        "ground_truth_question": "What is the sum of making progress ,losing ground and same in the year 2011?",
+        "ground_truth_answer": "99",
+        "predicted_question": "What percentage of Mexicans believe the government is making progress against drug trafficking in 2015",
+        "predicted_answer": "39"
+    },
+    {
+        "question_id": 3,
+        "image_path": "/workspace/data/ChartVQA/ChartQA_Dataset/train-val/10183.png",
+        "ground_truth_question": "How many intercepting point(s) is/are there?",
+        "ground_truth_answer": "1",
+        "predicted_question": "What percentage of Brazilians believed the economy was good in 2015",
+        "predicted_answer": "13"
+    },
+    {
+        "question_id": 4,
+        "image_path": "/workspace/data/ChartVQA/ChartQA_Dataset/train-val/10184.png",
+        "ground_truth_question": "Which line contains smaller values across all years?",
+        "ground_truth_answer": "Unfavorable",
+        "predicted_question": "How much has the percentage of favorable views of Brazil decreased from 2010 to 2015",
+        "predicted_answer": "28"
+    },
+    {
+        "question_id": 5,
+        "image_path": "/workspace/data/ChartVQA/ChartQA_Dataset/train-val/10197.png",
+        "ground_truth_question": "What's the rightmost value dark brown graph?",
+        "ground_truth_answer": "47",
+        "predicted_question": "What percentage of people believe it is more important to control gun ownership than to protect the right of Americans to own guns in 2015",
+        "predicted_answer": "47"
+    },
+    {
+        "question_id": 6,
+        "image_path": "/workspace/data/ChartVQA/ChartQA_Dataset/train-val/10238.png",
+        "ground_truth_question": "Is the largest value of green bar 30?",
+        "ground_truth_answer": "No",
+        "predicted_question": "What was the highest percentage of U.S. favorability in Russia in the given years",
+        "predicted_answer": "57"
+    },
+    {
+        "question_id": 7,
+        "image_path": "/workspace/data/ChartVQA/ChartQA_Dataset/train-val/10239.png",
+        "ground_truth_question": "What's the median value of green graph?",
+        "ground_truth_answer": "75",
+        "predicted_question": "What was the highest percentage of favorable views of Germany in Russia before the Ukraine conflict",
+        "predicted_answer": "78"
+    }
+]

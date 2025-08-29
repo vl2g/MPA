@@ -1,0 +1,16 @@
+[
+  {
+    "id": 4802085,
+    "image": "/workspace/data/okvqa/images/train2014/COCO_train2014_000000480208.jpg",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhat is the person in the image likely doing"
+      },
+      {
+        "from": "gpt",
+        "value": "Snowboarding"
+      }
+    ]
+  }
+]

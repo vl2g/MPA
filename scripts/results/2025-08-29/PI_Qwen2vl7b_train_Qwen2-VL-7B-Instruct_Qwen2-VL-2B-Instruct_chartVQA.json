@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1457,
+    "image": "/workspace/data/ChartVQA/ChartQA_Dataset/train-val/9051.png",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>\nWhich country places the highest value on individual liberty"
+      },
+      {
+        "from": "gpt",
+        "value": "Lithuania"
+      }
+    ]
+  }
+]
