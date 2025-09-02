@@ -127,7 +127,7 @@ def Infer(model, processor, data_loader, args):
             print("[Predicted Truth] |", question_id, image_path, question, answer, generated_text)
                     
         torch.cuda.empty_cache()  # Clear memory after each iteration
-        break
+        # break
 
     json_file_path = return_filePath_infer(args)
     output = write_to_json_eval(question_ids, img_paths, questions, answers, preds, json_file_path)
