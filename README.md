@@ -1,6 +1,6 @@
 # When Big Models Train Small Ones: Label-Free Model Parity Alignment for Efficient Visual Question Answering using Small VLMs
 
-This repository contains the official code for training, inference, and evaluation of *MPA* from the *EMNLP'25* paper ["When Big Models Train Small Ones: Label-Free Model Parity Alignment for Efficient Visual Question Answering using Small VLMs"]
+This repository contains the official code for training, inference, and evaluation of *MPA* from the **EMNLP'25** paper ["When Big Models Train Small Ones: Label-Free Model Parity Alignment for Efficient Visual Question Answering using Small VLMs"]
 
 ## To setup environment
 ```
@@ -20,28 +20,28 @@ $ pip install -r requirements.txt
 ## Dataset
 Now, we show the results of MPA on four datasets namely, TextVQA, STVQA, ChartQA, and OKVQA. Please follow the following instructions to successfully create the splits used for each dataset.
 
-First, for TextVQA you can download the images and respective annotations from their [official website](https://textvqa.org/). Now, on their official website they have provided three splits: train, val, and test, but since answers are not available for questions in the test-set we use the val set(consisting 5,000 questions for 3,166 images) for evaluation purposes. Furthermore, we split the train set(consisting 34,602 questions for 21,953 images) into 85:15 ratio for training and validation purposes. You can access the train, val, and test splits at the following paths:
+First, for TextVQA you can download the images and respective annotations from their [official website](https://textvqa.org/). You can access the train, val, and test splits at the following paths:
 ```
 train-split: /data/TextVQA/qwenTrainFormat_train.json
 val-split: /data/TextVQA/qwenTrainFormat_eval.json
 test-split: /data/TextVQA/TextVQA_0.5.1_val.json
 ``` 
 
-Second, for STVQA you can download the images and respective annotations from their [official website](https://rrc.cvc.uab.es/?ch=11). Now, on their official website they have provided data(train and test splits) for three(3) tasks. We have provided our results for task 1 only. Now, similarly to TextVQA, STVQA test set also do not have answers so we first split the train set following a 85:15 split to create train+val set and test set(for running evaluation), and then further split the train+val set following a 85:15 split to create train and eval set. You can access the train, val, and test splits at the following paths:
+Second, for STVQA you can download the images and respective annotations from their [official website](https://rrc.cvc.uab.es/?ch=11). You can access the train, val, and test splits at the following paths:
 ```
 train-split: /data/STVQA/QwenTrainFormat_train_task_1_onePerImage_train.json
 val-split: /data/STVQA/QwenTrainFormat_train_task_1_onePerImage_eval.json
 test-split: /data/STVQA/train_task_1_onePerImage_val.json
 ```
 
-Third, for ChartQA you can download the images and respective annotations from their [official github repo](https://github.com/vis-nlp/ChartQA). Now, on their github repo they have provided three splits: train, val, and test, and all splits are equipped with labels as well. You can access the train, val, and test splits at the following paths:
+Third, for ChartQA you can download the images and respective annotations from their [official github repo](https://github.com/vis-nlp/ChartQA). You can access the train, val, and test splits at the following paths:
 ```
 train-split: /data/ChartVQA/train_onePerImage_QwenFormat_train.json
 val-split: /data/ChartVQA/train_onePerImage_QwenFormat_eval.json
 test-split: /data/ChartVQA/test_combined.json
 ```
 
-Fourth, for OK-VQA you can download the images and respective annotations from their [official website](https://okvqa.allenai.org/index.html). Now, on their official website they have provided two splits: train and test, and unlike previous datasets their test-split have the answers as well. So, we simply split the train set following a 85:15 ratio to create train and evaluation sets. You can access the train, val, and test splits at the following paths:
+Fourth, for OK-VQA you can download the images and respective annotations from their [official website](https://okvqa.allenai.org/index.html). You can access the train, val, and test splits at the following paths:
 ```
 train-split: /data/OKVQA/okvqa_QwenFormat_train.json
 val-split: /data/OKVQA/okvqa_QwenFormat_eval.json
@@ -59,18 +59,19 @@ $ bash PA.sh
 ```
 
 ## Parity Identifier (PI)
-Now, in order to identify the parity between the LVLM and SVLM run the following command. Note, you have to pass the path of the PA output json file inside the respective dataloader in PI.py.
+This is the module that is responsible to identify samples that represent the knowledge gaps between S-VLM and L-VLM. Note, you have to pass the path of the PA output json file inside the respective dataloader in PI.py.
 ```
 # run the bash script PI.sh
 $ bash PI.sh
 ```
 
 ## Parity Leveler
-Now, in this step we will use the Parity samples between LVLM and SVLM generated and identified using PA and PI respectively to train the SVLM to bridge the Parity between the two models. Note, we use the following [github repo](https://github.com/2U1/Qwen2-VL-Finetune?tab=readme-ov-file#full-finetuning) to train the qwen-family models. Also, note you have to pass the train json file generated during the PI step in PL.sh to train on the parity sampled. Run the following command to do the same:
+Now, Parity samples obtained by PI module are used to train the SVLM to enhance it. Also, note you have to pass the train json file generated during the PI step in PL.sh to train on the parity samples. Run the following command to do the same:
 ```
 # run the bash script PL.sh
 $ bash PL/Qwen2-VL-Finetune/scripts/PL.sh
 ```
+Note, we use the following [github repo](https://github.com/2U1/Qwen2-VL-Finetune?tab=readme-ov-file#full-finetuning) to train the qwen-family models.
 
 ## Evaluate
 Now, to evaluate pre-trained and MPA trained models you can run the following command:
