@@ -166,7 +166,7 @@ def PseudoAnnotator(model, processor, data_loader, args):
             print(f"[Predicted Truth] | {question_id} | {image_path} | {generated_question} | {generated_answer}")
                 
         torch.cuda.empty_cache()  # Clear memory after each iteration
-        break
+        # break
     
     json_file_path = return_filePath_PA(args)
     write_to_json(question_ids, img_paths, gts_q, gts_ans, preds_q, preds_ans, json_file_path)
