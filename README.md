@@ -1,4 +1,4 @@
-# When Big Models Train Small Ones: Label-Free Model Parity Alignment for Efficient Visual Question Answering using Small VLMs
+# Official Implementation of our EMLNP 2025 Paper "When Big Models Train Small Ones: Label-Free Model Parity Alignment for Efficient Visual Question Answering using Small VLMs"
 
 [![GitHub stars](https://img.shields.io/github/stars/vl2g/MPA.svg?style=social&label=Star&maxAge=2592000)](https://github.com/vl2g/MPA/) ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=vl2g.MPA)
 
