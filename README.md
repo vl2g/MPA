@@ -1,14 +1,14 @@
 # Official Implementation of our EMLNP 2025 Paper "When Big Models Train Small Ones: Label-Free Model Parity Alignment for Efficient Visual Question Answering using Small VLMs"
 
-<p align="center">
-  <a href="https://github.com/vl2g/MPA/">
-    <img src="https://img.shields.io/github/stars/vl2g/MPA.svg?style=social&label=Star&maxAge=3600" alt="GitHub stars"/>
-  </a>
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=vl2g.MPA" alt="Visitors"/>
-  <a href="https://arxiv.org/abs/2509.16633">
-    <img src="https://img.shields.io/badge/arXiv-2509.16633-b31b1b.svg" alt="arXiv"/>
-  </a>
-</p>
+<div align="center">
+
+[![GitHub stars](https://img.shields.io/github/stars/vl2g/MPA.svg?style=social&label=Star&maxAge=3600)](https://github.com/vl2g/MPA)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=vl2g.MPA)
+[![arXiv](https://img.shields.io/badge/arXiv-2509.16633-b31b1b.svg)](https://arxiv.org/abs/2509.16633)
+[![EMNLP 2025](https://img.shields.io/badge/EMNLP-2025-orange)](https://github.com/vl2g/MATR/blob/main/assets/kumar_emnlp25.pdf)
+
+</div>
+
 
 
 
