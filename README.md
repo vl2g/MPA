@@ -97,5 +97,18 @@ $ bash evaluate.sh
 ## License
 This code and data are released under the [MIT license](LICENSE.txt).
 
+## Cite
+If you find this data/code/paper useful for your research, please consider citing.
+
+```
+@inproceedings{penamakuri2025big,
+  title={When Big Models Train Small Ones: Label-Free Model Parity Alignment for Efficient Visual Question Answering using Small VLMs},
+  author={Penamakuri, Abhirama Subramanyam and Singh, Navlika and Arora, Piyush and Mishra, Anand},
+  booktitle={Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},
+  pages={31632--31649},
+  year={2025}
+}
+```
+
 ## Acknowledgements
 1. We used code-base and pre-trained models of [Qwen2vl](https://github.com/QwenLM/Qwen2.5-VL).
