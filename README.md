@@ -9,12 +9,14 @@
 
 </div>
 
-
-
-
-
-
 This repository contains the official code for training, inference, and evaluation of **Model Parity Aligner (MPA)**.
+
+
+## News 🚀🚀🚀
+- `2025/11/19`: MPA is invited for presentation at the ACM ARCS 2026 (at IIT Hyderabad).
+- `2025/11/07`: MPA is selected for presentation at the 'Vision India' Session in ICVGIP 2025 (at IIT Mandi).
+- `2025/11/05`: Presented MPA at EMNLP 2025 (Suzhou, China).
+
 
 ## To setup environment
 ```
